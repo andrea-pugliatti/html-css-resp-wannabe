@@ -133,3 +133,22 @@ img {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col {
+        width: 100%;
+    }
+    
+    .lessons .col img,
+    .steps .col img,
+    .why-us .col img {
+        margin: 1rem 0;
+    }
+
+}
